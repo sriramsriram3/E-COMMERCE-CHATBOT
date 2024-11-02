@@ -3,20 +3,19 @@ from pathlib import Path
 
 list_of_files=[
     "src/__init__.py",
-    "src/helper.py",
-    "src/prompt.py",
-    "notebook/__init__.py",
+    "src/data_ingestion.py",
+    "src/data_conversion.py",
+    "src/retrieval_generation.py"
     "notebook/test.ipynb",
     "requirements.txt",
     "setup.py",
     ".env",
-    "templates/__init__.py",
     "templates/index.py",
-    "static/__init__.py",
     "static/style.css",
     ".github/workflows",
-    "data/__init__.py",
-    "app.py"
+    "app.py",
+    "vector_store/__init__.py",
+    "vector_store/astradb.py"
 
 ]
 
