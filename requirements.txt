@@ -1,0 +1,7 @@
+langchain_core
+langchain
+langchain_community
+langchain_groq
+langchain_astradb
+pandas
+langchain_huggingface
