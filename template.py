@@ -5,7 +5,7 @@ list_of_files=[
     "src/__init__.py",
     "src/data_ingestion.py",
     "src/data_conversion.py",
-    "src/retrieval_generation.py"
+    "src/retrieval_generation.py",
     "notebook/test.ipynb",
     "requirements.txt",
     "setup.py",
