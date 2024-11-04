@@ -10,7 +10,7 @@ import os
 ASTRA_DB_APPLICATION_TOKEN=os.getenv('ASTRA_DB_APPLICATION_TOKEN')
 ASTRA_DB_API_ENDPOINT=os.getenv('ASTRA_DB_API_ENDPOINT')
 data=data_ingest()
-docs=dataconverter()
+docs=dataconverter(data)
 embeddings=embedding_model()
 def connect_vectorstore():
     vector_store = AstraDBVectorStore(

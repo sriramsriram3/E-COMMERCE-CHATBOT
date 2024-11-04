@@ -4,7 +4,7 @@ from src.data_ingestion import data_ingest
 
 data=data_ingest()
 
-def dataconverter():
+def dataconverter(data):
     
     product_list = []
 
