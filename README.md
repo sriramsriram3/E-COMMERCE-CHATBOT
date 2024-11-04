@@ -3,15 +3,21 @@
 ### This project implements a Flipkart chatbot with the capability to handle complex product-related queries and store chat history and memory for more personalized responses. The chatbot uses a Retrieval-Augmented Generation (RAG) pipeline with the Mistral model running on GROQ for fast inference, AstraDB for vector storage, and Flask as the backend framework.
 
 ## Features
-RAG Pipeline: Utilizes the Retrieval-Augmented Generation approach for handling large, contextually rich data.
 
-Chat History and Memory: Allows the bot to store past interactions for enhanced personalized responses.
+###### RAG Pipeline: 
+Utilizes the Retrieval-Augmented Generation approach for handling large, contextually rich data.
 
-LLM Model: Mistral model on GROQ for optimized and cost-effective language model inference.
+###### Chat History and Memory: 
+Allows the bot to store past interactions for enhanced personalized responses.
 
-Vector Storage: AstraDB provides efficient and scalable vector storage.
+###### LLM Model: 
+Mistral model on GROQ for optimized and cost-effective language model inference.
 
-Web API: Exposes an API built with Flask for easy integration with front-end applications.
+###### Vector Storage: 
+AstraDB provides efficient and scalable vector storage.
+
+###### Web API: 
+Exposes an API built with Flask for easy integration with front-end applications.
 
 ## Requirements
 
@@ -70,13 +76,17 @@ pip install -r requirements.txt
 
 <img width="373" alt="Screenshot 2024-11-03 223741-rag" src="https://github.com/user-attachments/assets/201da001-aec5-4d82-92c8-0e1e8edf2dda">
 
-User Query: The user sends a query to the bot through the /chat endpoint.
+###### User Query: 
+The user sends a query to the bot through the /chat endpoint.
 
-Retrieval: Relevant product data is retrieved from AstraDB using vector similarity search.
+###### Retrieval: 
+Relevant product data is retrieved from AstraDB using vector similarity search.
 
-Generation: The Mistral model on GROQ generates a response using the retrieved data.
+###### Generation: 
+The Mistral model on GROQ generates a response using the retrieved data.
 
-Chat History & Memory: Past conversations and chat history are managed to provide contextual responses.
+###### Chat History & Memory: 
+Past conversations and chat history are managed to provide contextual responses.
 
 ## Sample output
 
@@ -84,13 +94,31 @@ Chat History & Memory: Past conversations and chat history are managed to provid
 
 ## Customization
 
-To customize the bot for other domains:
+#### To customize the bot for other domains:
 
-Modify Retrieval Data: Update the dataset used in AstraDB to relevant information.
+###### Modify Retrieval Data:
+Update the dataset used in AstraDB to relevant information.
 
-Fine-Tune Model: Fine-tune the Mistral model if necessary.
+###### Fine-Tune Model:
+Fine-tune the Mistral model if necessary.
 
-Add More Endpoints: Extend the Flask app for additional functionalities as needed.
+###### Add More Endpoints: 
 
+Extend the Flask app for additional functionalities as needed.
 
+## Contributing
+
+Feel free to fork the repository, make enhancements, and submit a pull request. We welcome contributions!
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+GROQ for efficient model deployment.
+
+AstraDB for robust vector storage capabilities.
+
+Mistral Model for natural language processing and generation.
 
