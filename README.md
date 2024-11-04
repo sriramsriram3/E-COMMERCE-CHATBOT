@@ -1,5 +1,17 @@
 # Flipkart Chat Bot 
 
+### This project implements a Flipkart chatbot with the capability to handle complex product-related queries and store chat history and memory for more personalized responses. The chatbot uses a Retrieval-Augmented Generation (RAG) pipeline with the Mistral model running on GROQ for fast inference, AstraDB for vector storage, and Flask as the backend framework.
+
+## Features
+RAG Pipeline: Utilizes the Retrieval-Augmented Generation approach for handling large, contextually rich data.
+
+Chat History and Memory: Allows the bot to store past interactions for enhanced personalized responses.
+
+LLM Model: Mistral model on GROQ for optimized and cost-effective language model inference.
+
+Vector Storage: AstraDB provides efficient and scalable vector storage.
+
+Web API: Exposes an API built with Flask for easy integration with front-end applications.
 
 
 ## If you don't have anaconda download from here
