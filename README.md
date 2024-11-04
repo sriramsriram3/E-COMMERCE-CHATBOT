@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ## How It Works
 
-                                            <img width="373" alt="Screenshot 2024-11-03 223741-rag" src="https://github.com/user-attachments/assets/201da001-aec5-4d82-92c8-0e1e8edf2dda">
+<img width="373" alt="Screenshot 2024-11-03 223741-rag" src="https://github.com/user-attachments/assets/201da001-aec5-4d82-92c8-0e1e8edf2dda">
 
 User Query: The user sends a query to the bot through the /chat endpoint.
 Retrieval: Relevant product data is retrieved from AstraDB using vector similarity search.
@@ -76,4 +76,4 @@ Generation: The Mistral model on GROQ generates a response using the retrieved d
 Chat History & Memory: Past conversations and chat history are managed to provide contextual responses.
 
 
-                                           <img width="470" alt="Screenshot 2024-11-04 142808-app" src="https://github.com/user-attachments/assets/2cd5135c-2d54-4efb-b74f-d32fb9bc6a30">
+<img width="470" alt="Screenshot 2024-11-04 142808-app" src="https://github.com/user-attachments/assets/2cd5135c-2d54-4efb-b74f-d32fb9bc6a30">
