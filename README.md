@@ -75,6 +75,7 @@ pip install -r requirements.txt
 ## How It Works
 
 <img width="373" alt="Screenshot 2024-11-03 223741-rag" src="https://github.com/user-attachments/assets/201da001-aec5-4d82-92c8-0e1e8edf2dda">
+![Screenshot 2024-11-13 113536](https://github.com/user-attachments/assets/fbd4f99b-fc72-487e-a59b-4178f4cab73e)
 
 ###### User Query: 
 The user sends a query to the bot through the /chat endpoint.
